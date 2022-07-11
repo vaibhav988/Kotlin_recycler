@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+
+
+    >
+
+     <item
+         android:id="@+id/home"
+        android:icon="@drawable/ic_baseline_home_24"
+          android:title="Home"
+
+         />
+    <item
+        android:id="@+id/sports"
+        android:icon="@drawable/ic_baseline_sports_esports_24"
+        android:title="sports"
+
+        />
+
+    <item
+        android:id="@+id/politics"
+        android:icon="@drawable/ic_baseline_policy_24"
+        android:title="politics"
+
+        />
+    <item
+        android:id="@+id/education"
+        android:icon="@drawable/ic_baseline_library_books_24"
+        android:title="education"
+
+        />
+    <item
+        android:title="Other"
+        >
+
+        <menu>
+            <item
+                android:id="@+id/share_market"
+                android:icon="@drawable/ic_baseline_attach_money_24"
+                android:title="share_market"
+
+                />
+            <item
+                android:id="@+id/bollywood"
+                android:icon="@drawable/ic_baseline_local_movies_24"
+                android:title="bollywood"
+
+                />
+
+        </menu>
+
+    </item>
+
+
+
+
+</menu>

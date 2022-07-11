@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">News Feed</string>
+    <string name="selected_item">Selected item:</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string-array name="Languages">
+
+        <item>in-india</item>
+        <item>ng-Nigeria</item>
+        <item>id-indonesia </item>
+        <item>ie-ireland </item>
+        <item>il-Israel</item>
+        <item>jp-Japan</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

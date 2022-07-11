@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#DC143C"
+
+    >
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/user_image"
+        android:layout_marginHorizontal="20dp"
+        android:src="@drawable/user"
+        android:layout_marginVertical="5dp"
+
+        />
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/acme"
+        android:text="Vaibhav Nanaware"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/user_email_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/acme"
+        android:text="vaibhavnanavare600@gmail.com"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+
+        />
+
+
+
+
+
+
+</LinearLayout>
