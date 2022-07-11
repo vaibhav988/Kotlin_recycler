@@ -84,34 +84,34 @@ class MainActivity : AppCompatActivity() {
             when (it.itemId) {
                 R.id.home -> {
 
-                    Toast.makeText(applicationContext, "home clicked", Toast.LENGTH_LONG)
+                    Toast.makeText(applicationContext, "home clicked", Toast.LENGTH_SHORT)
                         .show()
                        Log.d("navbar" , "Home selected" )
                 }
                 R.id.share_market -> Toast.makeText(
                     applicationContext,
                     "share-market clicked",
-                    Toast.LENGTH_LONG
+                    Toast.LENGTH_SHORT
                 ).show()
                 R.id.politics -> Toast.makeText(
                     applicationContext,
                     "politics clicked",
-                    Toast.LENGTH_LONG
+                    Toast.LENGTH_SHORT
                 ).show()
                 R.id.sports -> Toast.makeText(
                     applicationContext,
                     "sports clicked",
-                    Toast.LENGTH_LONG
+                    Toast.LENGTH_SHORT
                 ).show()
                 R.id.education -> Toast.makeText(
                     applicationContext,
                     "education clicked",
-                    Toast.LENGTH_LONG
+                    Toast.LENGTH_SHORT
                 ).show()
                 R.id.bollywood -> Toast.makeText(
                     applicationContext,
                     "bollywood clicked",
-                    Toast.LENGTH_LONG
+                    Toast.LENGTH_SHORT
                 ).show()
 
             }
